@@ -42,7 +42,9 @@ INSTALLED_APPS = [
     'mptt',
     'django_elasticsearch_dsl',
     'ecommerce.inventory',
-    'ecommerce.drf'
+    'ecommerce.drf',
+    'ecommerce.demo',
+    'ecommerce.search'
 ]
 
 MIDDLEWARE = [
