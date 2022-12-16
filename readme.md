@@ -10,7 +10,7 @@ one to many (many-define fk in this table)
 
 https://www.youtube.com/watch?v=nC6MmeLY-NA&list=RDCMUC1mxuk7tuQT2D0qTMgKji3w&start_radio=1&t=779s
 
-03:12:32
+03:25:02
 
 search api client in drf docs 
 
@@ -20,3 +20,12 @@ Thunder Client :    for  rest api testing
 **********************************************
 
 Elasticsearch 
+
+pip install django-elasticsearch-dsl
+
+
+
+
+
+
+
