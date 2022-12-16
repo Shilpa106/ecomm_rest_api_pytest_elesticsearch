@@ -10,7 +10,7 @@ one to many (many-define fk in this table)
 
 https://www.youtube.com/watch?v=nC6MmeLY-NA&list=RDCMUC1mxuk7tuQT2D0qTMgKji3w&start_radio=1&t=779s
 
-02:42:10
+03:12:32
 
 search api client in drf docs 
 

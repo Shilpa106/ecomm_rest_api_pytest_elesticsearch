@@ -4,6 +4,7 @@ from ecommerce.inventory.models import (
     Category,
     Product, 
     ProductAttribute,
+    ProductAttributeValue,
     ProductType,
     ProductInventory,
     Media
@@ -54,7 +55,7 @@ def product_type(db, product_attribute):
     product_type= ProductType.objects.create(name='default')
     product_attribute = product_attribute
     
-    product_type.product_type_attribute.add(product_attribute)
+    product_type.product_type_attributes.add(product_attribute)
     
     return product_type
 
