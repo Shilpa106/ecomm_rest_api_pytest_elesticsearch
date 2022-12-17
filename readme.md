@@ -10,8 +10,6 @@ one to many (many-define fk in this table)
 
 https://www.youtube.com/watch?v=nC6MmeLY-NA&list=RDCMUC1mxuk7tuQT2D0qTMgKji3w&start_radio=1&t=779s
 
-03:38:50
-
 search api client in drf docs 
 
 
@@ -51,3 +49,9 @@ python3 manage.py migrate
 
 
 python3 manage.py demo-fixtures 
+
+python3 manage.py search_index --rebuild 
+
+
+python3 manage.py runserver
+
