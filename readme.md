@@ -26,6 +26,15 @@ pip install django-elasticsearch-dsl
 
 
 
+to remove all container and images using one command
+
+https://www.geeksforgeeks.org/remove-all-containers-and-images-in-docker/
+
+docker stop $(docker ps -aq)
+docker rm $(docker ps -aq)
+
+docker rmi $(docker images -q)
+
 
 to solve container conflict error change container name 
 

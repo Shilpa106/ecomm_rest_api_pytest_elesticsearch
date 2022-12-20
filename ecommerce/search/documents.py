@@ -10,6 +10,11 @@ class ProductInventoryDocument(Document):
 
     class Index:
         name=ProductInventory
+        
+    class Django:
+        # name=ProductInventory
+        model=ProductInventory
+        
         fields = [
             'id',
             'sku',
