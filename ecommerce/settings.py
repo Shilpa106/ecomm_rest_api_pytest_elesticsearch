@@ -90,15 +90,24 @@ WSGI_APPLICATION = 'ecommerce.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE':'django.db.backends.postgresql_psycopg2',
-        'NAME':'mydb',
-        'USER' :  'myuser',
-        'PASSWORD':'mypass',
-        'HOST': 'pgdb',
+        'ENGINE':'django.db.backends.postgresql',
+        'NAME':'Test',
+        'USER' :  'shilpa',
+        'PASSWORD':'my#1234',
+        'HOST': 'localhost',
         'PORT':'5432',
     }
 }
-
+# DATABASES = {
+#     'default': {
+#         'ENGINE': 'django.db.backends.postgresql',
+#         'NAME': 'mydb',
+#         'USER': 'myuser',
+#         'PASSWORD': 'mypass',
+#         'HOST': 'pgdb',
+#         'PORT': '5432',
+#     }
+# }
 # Password validation
 # https://docs.djangoproject.com/en/3.2/ref/settings/#auth-password-validators
 

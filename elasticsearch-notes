@@ -1,0 +1,89 @@
+ELASTIC SEARCH:
+
+search engine:
+  like as google search given query or keyword everywhere and give all result like as these keywork
+where exists and all the page related to keyword it gives as a result.
+
+Free & Open Source:
+Free means no cost .can implement this in my product and sell.
+Open Source:if you want to change or modify something then you can do and give to developer
+
+Full Text search :
+in mysql when we search anything then it do with using relation database queries means join etc.
+but when we search 'Open' then it unable to give result . thats why we use elasticsearch. 
+
+scalable:
+
+vertical means increase cpu, ram (32 gb to 64 gb)
+horizontal means : use diffrent machine in parallel.
+
+Inverted index: it gives result like as in book we search that this word or keyword in which page and page no. exists.
+
+Terminology:
+Cluster: when we perform any task in more than one machine or
+using diffrent vm in one machine can make cluster.
+
+Node:
+a single instance of elasticsearch.
+
+Index:
+like mysql table index.
+
+Type(removed):
+multiple type of data can be stored in one index, now its removed.
+
+Document:
+like mysql row.
+
+Field:
+like mysql column.
+
+Mapping:
+like mysql schema
+
+if data is more than device memory space then you will have to divide data.
+Shard : divide data in multiple machine
+Primary Shard
+Replica Shard
+
+if there is only one copy of data and if there any failure happen in machine then site
+will be down.
+for this we replicate data.
+write at one place and copy to multiple places
+where it writes called primary shard and where copy happen that called replica shard.
+
+
+Index = Table
+Mapping = Schema
+Field = Column
+Document = Row.
+
+
+*************************************
+
+Elastic installation
+kibana installation 
+ui walk through 
+
+                             kibana:
+What is Kibana?
+Kibana is an free and open frontend application that sits on top of the Elastic Stack, providing search and data visualization capabilities for data indexed in Elasticsearch. Commonly known as the charting tool for the Elastic Stack (previously referred to as the ELK Stack after Elasticsearch, Logstash, and Kibana), Kibana also acts as the user interface for monitoring, managing, and securing an Elastic Stack cluster — as well as the centralized hub for built-in solutions developed on the Elastic Stack. Developed in 2013 from within the Elasticsearch community, Kibana has grown to become the window into the Elastic Stack itself, offering a portal for users and companies.
+
+
+APM: collect data like memory performance and memory used and make dashboard with this.
+
+
+Logs:
+in logs there are all details time and reason.
+you can check how many requests come and response time 
+
+Metrics:
+collect metrics from the operating system and services running on your servers.
+
+different way to view data.
+
+
+we write elasticsearch query in json format.
+
+
+11:00

@@ -1,6 +1,16 @@
 version: '3.8'
 
 services:
+  # migration:
+  #   image: uzman
+  #   command: bash -c "python3 ./manage.py makemigrations && python3 ./manage.py migrate && python3 ./manage.py makemigrations inventory && python3 ./manage.py migrate inventory"
+
+  #   volumes:
+  #     - .:/code
+  #   depends_on:
+  #     - pgdb
+
+
   pgdb:
     profiles: ['dev']
     container_name: pgdb_ecommerce 
